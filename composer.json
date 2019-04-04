@@ -1,0 +1,26 @@
+{
+    "name": "pixeo/laravel-robots",
+    "description": "Set the robots.txt content dynamically based on the Laravel app environment.",
+    "keywords": ["php", "laravel", "robots.txt"],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "~5.7.0|~5.8.0|~5.9.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.7",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pixeo\\RobotsTxt\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pixeo\\RobotsTxt\\RobotsTxtProvider"
+            ]
+        }
+    }
+}
