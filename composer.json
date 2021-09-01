@@ -4,7 +4,7 @@
     "keywords": ["php", "laravel", "robots.txt"],
     "require": {
         "php": "^7.2",
-        "illuminate/support": "~5.7.0|~5.8.0|~5.9.0"
+        "illuminate/support": ">=5.7.0"
     },
     "require-dev": {
         "orchestra/testbench": "^3.7",
