@@ -3,7 +3,7 @@
     "description": "Set the robots.txt content dynamically based on the Laravel app environment.",
     "keywords": ["php", "laravel", "robots.txt"],
     "require": {
-        "php": "^7.2",
+        "php": "^7.2|^8.0",
         "illuminate/support": ">=5.7.0"
     },
     "require-dev": {
